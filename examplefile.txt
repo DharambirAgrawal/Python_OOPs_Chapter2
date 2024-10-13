@@ -1,0 +1,14 @@
+The output will be a bar chart where:
+
+The x-axis represents the alphabetic characters (a-z).
+The y-axis represents the frequency of each character that appeared in the document.
+This approach ensures that both file and direct text input methods are supported.
+
+Input: The user inputs a polynomial in terms of 
+𝑥
+x (e.g., 3*x**2 + 2*x + 1).
+Sympy: The sympify function from sympy converts the input string into a symbolic polynomial expression.
+Derivative: The diff function calculates the first derivative of the polynomial with respect to 
+𝑥
+x.
+Output: The derivative is then displayed.
